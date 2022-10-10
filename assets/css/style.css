@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+   text-align: center;
+   margin: 3rem 0;
+   font-family: fantasy;
+   font-size: 10vh;
+   color: cyan;
+}
+
+.orange{
+    height: 10vh;
+    width: 10%;
+    background-color: rgb(246, 154, 17);
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.green{
+    height: 10vh;
+    width: 10%;
+    background-color: rgb(56, 210, 102);
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.blue{
+    height: 10vh;
+    width: 10%;
+    background-color: cornflowerblue;
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.red{
+    height: 10vh;
+    width: 10%;
+    padding: 3rem;
+    background-color: rgb(224, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.container{
+    width: 70%;
+    margin:10vh auto;
+    background-color: cyan;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    
+}
